@@ -35,4 +35,8 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testAnotherThing{
+        assertEquals(6, 5+1);
+    }
 }
