@@ -1,6 +1,6 @@
 def executePipeline(){
     stage('Build'){
         echo "Hello!"
-	echo "${TEST_VAR}
+	echo "${TEST_VAR}"
     }
 }
